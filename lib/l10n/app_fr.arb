@@ -1,0 +1,318 @@
+{
+  "@@locale": "fr",
+
+  "appTitle": "Teranga Agro",
+  "@appTitle": { "description": "Nom de l'application" },
+
+  "navHome": "Accueil",
+  "@navHome": { "description": "Home navigation label" },
+
+  "navParcelles": "Parcelles",
+  "@navParcelles": { "description": "Parcelles navigation label" },
+
+  "navMarketplace": "Marché",
+  "@navMarketplace": { "description": "Marketplace navigation label" },
+
+  "navProfile": "Profil",
+  "@navProfile": { "description": "Profile navigation label" },
+
+  "comingSoon": "Bientôt disponible",
+  "@comingSoon": { "description": "Texte pour une fonctionnalité bientôt disponible" },
+
+  "dashboardTitle": "Tableau de Bord",
+  "@dashboardTitle": { "description": "Titre de l'écran du tableau de bord" },
+
+  "dashboardParcellesCount": "Parcelles",
+  "@dashboardParcellesCount": { "description": "Label pour le compteur de parcelles" },
+
+  "dashboardCulturesCount": "Cultures",
+  "@dashboardCulturesCount": { "description": "Label pour le compteur de cultures" },
+
+  "dashboardSuivisCount": "Suivis récents",
+  "@dashboardSuivisCount": { "description": "Label pour le compteur de suivis récents" },
+
+  "dashboardViewParcelles": "Voir Parcelles",
+  "@dashboardViewParcelles": { "description": "Bouton pour accéder aux parcelles depuis le tableau de bord" },
+
+  "dashboardAudio": "Bienvenue sur le tableau de bord de Teranga Agro, où vous pouvez voir et gérer vos parcelles, cultures, suivis, produits, commandes et ventes.",
+  "@dashboardAudio": { "description": "Instructions audio pour le tableau de bord" },
+
+  "dashboardSales": "Ventes",
+  "@dashboardSales": { "description": "Sales label for dashboard" },
+
+  "welcomeMessage": "Bonjour",
+  "@welcomeMessage": { "description": "Welcome greeting" },
+
+  "activityOverview": "Aperçu de vos activités",
+  "@activityOverview": { "description": "Activity overview subtitle" },
+
+  "yourParcelles": "Vos parcelles",
+  "@yourParcelles": { "description": "Your parcelles section title" },
+
+  "view": "Voir",
+  "viewAll": "Voir tout",
+  "@viewAll": { "description": "View all button label" },
+  "@view": { "description": "View button label" },
+
+  "noRecentSuivis": "Aucun suivi récent",
+  "@noRecentSuivis": { "description": "No recent suivis message" },
+
+  "statusGrowing": "En croissance",
+  "@statusGrowing": { "description": "Growing status label" },
+
+  "statusReadyToHarvest": "Prêt à récolter",
+  "@statusReadyToHarvest": { "description": "Ready to harvest status label" },
+
+  "parcellesTitle": "Mes Parcelles",
+  "@parcellesTitle": { "description": "Titre de l'écran des parcelles" },
+
+  "addParcelle": "Ajouter une parcelle",
+  "@addParcelle": { "description": "Bouton pour ajouter une parcelle" },
+
+  "editParcelle": "Modifier la parcelle",
+  "@editParcelle": { "description": "Bouton pour modifier une parcelle" },
+
+  "nomLabel": "Nom de la parcelle",
+  "@nomLabel": { "description": "Label du champ nom de la parcelle" },
+
+  "surfaceLabel": "Surface (ha)",
+  "@surfaceLabel": { "description": "Label du champ surface de la parcelle" },
+
+  "geolocationLabel": "Obtenir la position",
+  "@geolocationLabel": { "description": "Label du bouton de géolocalisation" },
+
+  "positionPrefix": "Coordonnées GPS",
+  "@positionPrefix": { "description": "Préfixe pour les coordonnées GPS dans la carte" },
+
+  "surfacePrefix": "Surface",
+  "@surfacePrefix": { "description": "Préfixe pour la surface dans la carte de la parcelle" },
+
+  "saveButton": "Enregistrer",
+  "@saveButton": { "description": "Libellé du bouton d'enregistrement" },
+
+  "noParcelles": "Aucune parcelle trouvée",
+  "@noParcelles": { "description": "Message affiché lorsqu'aucune parcelle n'est disponible" },
+
+  "addParcellePrompt": "Ajoutez votre première parcelle en appuyant sur le bouton +",
+  "@addParcellePrompt": { "description": "Message affiché lorsqu'il n'y a pas encore de parcelles" },
+
+  "formError": "Veuillez remplir ce champ correctement",
+  "@formError": { "description": "Message d'erreur pour validation de formulaire" },
+
+  "offlineMessage": "Mode hors-ligne : les modifications seront synchronisées plus tard",
+  "@offlineMessage": { "description": "Message affiché en mode hors-ligne" },
+
+  "featureInDevelopment": "Le changement de langue est en cours de développement.",
+  "@featureInDevelopment": { "description": "Message affiché quand la fonctionnalité n'est pas encore disponible" },
+
+  "audioInstructions": "Entrez le nom de la parcelle, la surface en hectares, et appuyez sur le bouton de géolocalisation pour obtenir les coordonnées. Ensuite, appuyez sur Enregistrer.",
+  "@audioInstructions": { "description": "Instructions vocales pour le formulaire" },
+
+  "detailsTitle": "Détails de la parcelle",
+  "@detailsTitle": { "description": "Titre de l'écran des détails de la parcelle" },
+
+  "detailsButton": "Détails",
+  "@detailsButton": { "description": "Bouton pour voir les détails" },
+
+  "retryButton": "Réessayer",
+  "@retryButton": { "description": "Bouton pour réessayer une action" },
+
+  "parcelleDetails": "Détails de la parcelle",
+  "@parcelleDetails": { "description": "Titre ou libellé des détails de la parcelle" },
+
+  "deleteParcelle": "Supprimer la parcelle",
+  "@deleteParcelle": { "description": "Bouton pour supprimer une parcelle" },
+
+  "deleteConfirm": "Voulez-vous supprimer cette parcelle ?",
+  "@deleteConfirm": { "description": "Message de confirmation pour la suppression d'une parcelle" },
+
+  "detailsAudio": "Ceci est la page des détails de la parcelle, avec le nom, la surface, la position et les cultures.",
+  "@detailsAudio": { "description": "Instructions audio pour la page des détails" },
+
+  "positionLabel": "Position",
+  "@positionLabel": { "description": "Label pour le champ de position GPS" },
+
+  "cancelButton": "Annuler",
+  "@cancelButton": { "description": "Label pour le bouton Annuler dans les dialogues" },
+
+  "deleteButton": "Supprimer",
+  "@deleteButton": { "description": "Label pour le bouton Supprimer dans les dialogues" },
+
+  "errorParcelleNotFound": "Erreur : Parcelle non trouvée.",
+  "@errorParcelleNotFound": { "description": "Message d'erreur lorsque l'ID de la parcelle est null ou non trouvé" },
+
+  "culturesTitle": "Cultures",
+  "@culturesTitle": { "description": "Titre de la section des cultures" },
+
+  "noCultures": "Aucune culture",
+  "@noCultures": { "description": "Message affiché quand aucune culture n'est présente" },
+
+  "addCulture": "Ajouter Culture",
+  "@addCulture": { "description": "Bouton pour ajouter une culture" },
+
+  "cultureNomLabel": "Nom de la culture",
+  "@cultureNomLabel": { "description": "Label du champ nom de la culture" },
+
+  "cultureTypeLabel": "Type de culture",
+  "@cultureTypeLabel": { "description": "Label du champ type de culture" },
+
+  "cultureDateLabel": "Date de plantation",
+  "@cultureDateLabel": { "description": "Label du champ date de plantation" },
+
+  "cultureAudio": "Entrez le nom de la culture, choisissez le type, et sélectionnez la date de plantation",
+  "@cultureAudio": { "description": "Instructions vocales pour le formulaire de culture" },
+
+  "cultureTypeCereale": "Céréale",
+  "@cultureTypeCereale": { "description": "Libellé pour le type Céréale" },
+
+  "cultureTypeLegumineuse": "Légumineuse",
+  "@cultureTypeLegumineuse": { "description": "Libellé pour le type Légumineuse" },
+
+  "cultureTypeTubercule": "Tubercule",
+  "@cultureTypeTubercule": { "description": "Libellé pour le type Tubercule" },
+
+  "cultureDetailsTitle": "Détails de la Culture",
+  "@cultureDetailsTitle": { "description": "Titre de l'écran des détails de la culture" },
+
+  "editCulture": "Modifier la culture",
+  "@editCulture": { "description": "Bouton pour modifier une culture" },
+
+  "deleteCulture": "Supprimer la culture",
+  "@deleteCulture": { "description": "Bouton pour supprimer une culture" },
+
+  "deleteCultureConfirm": "Voulez-vous supprimer cette culture ?",
+  "@deleteCultureConfirm": { "description": "Message de confirmation pour la suppression d'une culture" },
+
+  "cultureDetailsAudio": "Ceci est la page des détails de la culture, avec le nom, le type, et la date de plantation.",
+  "@cultureDetailsAudio": { "description": "Instructions audio pour la page des détails de culture" },
+
+  "errorLoadingCultures": "Erreur lors du chargement des cultures",
+  "@errorLoadingCultures": { "description": "Message d'erreur lorsque le chargement des cultures échoue" },
+
+  "addSuivi": "Ajouter Suivi",
+  "@addSuivi": { "description": "Bouton pour ajouter un suivi" },
+
+  "suiviTypeLabel": "Type de suivi",
+  "searchPlaceholder": "Recherche",
+  "@searchPlaceholder": { "description": "Input de recherche" },
+  "@suiviTypeLabel": { "description": "Label du champ type de suivi" },
+
+  "suiviDateLabel": "Date du suivi",
+  "@suiviDateLabel": { "description": "Label du champ date du suivi" },
+
+  "suiviNotesLabel": "Notes",
+  "@suiviNotesLabel": { "description": "Label du champ notes de suivi" },
+
+  "suiviAudio": "Choisissez le type de suivi, sélectionnez la date, et ajoutez des notes si nécessaire.",
+  "@suiviAudio": { "description": "Instructions vocales pour le formulaire de suivi" },
+
+  "suiviTypeIrrigation": "Irrigation",
+  "@suiviTypeIrrigation": { "description": "Libellé du type de suivi Irrigation" },
+
+  "suiviTypeFertilisation": "Fertilisation",
+  "@suiviTypeFertilisation": { "description": "Libellé du type de suivi Fertilisation" },
+
+  "suiviTypePhytosanitaire": "Traitement phytosanitaire",
+  "@suiviTypePhytosanitaire": { "description": "Libellé du type de suivi Traitement phytosanitaire" },
+  "productsSection": "Mes produits",
+  "ordersPendingSection": "À livrer",
+  "ordersHistorySection": "Historique",
+  "noProducts": "Aucun produit disponible",
+  "noPendingOrders": "Aucune commande à livrer",
+  "noHistoricalOrders": "Aucune commande dans l'historique",
+  "@productsSection": { "description": "Products section title" },
+  "@ordersPendingSection": { "description": "Pending orders section title" },
+  "@ordersHistorySection": { "description": "Historical orders section title" },
+  "@noProducts": { "description": "No products message" },
+  "@noPendingOrders": { "description": "No pending orders message" },
+  "@noHistoricalOrders": { "description": "No historical orders message" },
+  "cultureDatePlaceholder": "Choisissez la date de culture",
+  "dateRequired": "La date est requise",
+  "@cultureDatePlaceholder": {"description": "Placeholder for selecting a culture date"},
+  "@dateRequired": {"description": "Validation message when date is missing"},
+  "addProduct": "Ajouter un produit",
+  "marketplaceDescription": "Gérez vos produits et suivez vos commandes ici",
+  "marketplaceTitle": "Gérez vos produits et suivez vos commandes ici",
+  "featuredProducts": "Produits en vedette",
+  "allProducts": "Tous les produits",
+  "refresh": "Rafraîchir",
+  "tryAgain": "Réessayer",
+  "pendingCount": "En attente",
+  "processingCount": "En cours de traitement",
+  "shippedCount": "Expédié",
+  "completedOrdersTitle": "Commandes terminées",
+  "completedOrdersSubtitle": "Toutes les commandes livrées avec succès",
+
+  "@addProduct": { "description": "Button label to add a new product" },
+  "@marketplaceDescription": { "description": "Short description of the marketplace screen" },
+  "@marketplaceTitle": { "description": "Short description of the marketplace screen" },
+  "@featuredProducts": { "description": "Label for featured products section" },
+  "@allProducts": { "description": "Label for all products section" },
+  "@refresh": { "description": "Button label to refresh content" },
+  "@tryAgain": { "description": "Label for retrying an action" },
+  "@pendingCount": { "description": "Label showing count of pending orders" },
+  "@processingCount": { "description": "Label showing count of processing orders" },
+  "@shippedCount": { "description": "Label showing count of shipped orders" },
+  "@completedOrdersTitle": { "description": "Title for completed orders section" },
+  "@completedOrdersSubtitle": { "description": "Subtitle explaining the completed orders section" },
+  "addProduct": "Ajouter un produit",
+  "editProduct": "Modifier le produit",
+  "edit": "Modifier",
+  "productName": "Nom du produit",
+  "enterProductName": "Entrez le nom du produit",
+  "quantityKg": "Quantité (kg)",
+  "enterQuantity": "Entrez la quantité",
+  "priceFcfaKg": "Prix (FCFA/kg)",
+  "enterPrice": "Entrez le prix",
+  "status": "Statut",
+  "requiredField": "Ce champ est requis",
+  "invalidQuantity": "Quantité invalide",
+  "invalidPrice": "Prix invalide",
+  "save": "Enregistrer",
+  "cancel": "Annuler",
+  "errorSavingProduct": "Erreur lors de l'enregistrement du produit",
+  "@addProduct": { "description": "Add product title" },
+  "@editProduct": { "description": "Edit product title" },
+  "@edit": { "description": "Edit title" },
+  "@productName": { "description": "Product name label" },
+  "@enterProductName": { "description": "Product name hint" },
+  "@quantityKg": { "description": "Quantity label" },
+  "@enterQuantity": { "description": "Quantity hint" },
+  "@priceFcfaKg": { "description": "Price label" },
+  "@enterPrice": { "description": "Price hint" },
+  "@status": { "description": "Status label" },
+  "@requiredField": { "description": "Required field error" },
+  "@invalidQuantity": { "description": "Invalid quantity error" },
+  "@invalidPrice": { "description": "Invalid price error" },
+  "@save": { "description": "Save button" },
+  "@cancel": { "description": "Cancel button" },
+  "@errorSavingProduct": { "description": "Error saving product message" },
+  "personalInfo": "Informations personnelles",
+  "name": "Nom",
+  "phoneNumber": "Numéro de téléphone",
+  "region": "Région",
+  "preferences": "Préférences",
+  "language": "Langue",
+  "theme": "Thème",
+  "logout": "Se déconnecter",
+  "noData": "Aucune donnée disponible",
+  "invalidPhoneNumber": "Numéro de téléphone invalide",
+  "profileUpdated": "Profil mis à jour",
+  "errorUpdatingProfile": "Erreur lors de la mise à jour du profil",
+  "loggedOut": "Déconnexion réussie",
+  "@personalInfo": { "description": "Personal info section title" },
+  "@name": { "description": "Name label" },
+  "@phoneNumber": { "description": "Phone number label" },
+  "@region": { "description": "Region label" },
+  "@preferences": { "description": "Preferences section title" },
+  "@language": { "description": "Language label" },
+  "@theme": { "description": "Theme label" },
+  "@logout": { "description": "Logout button" },
+  "@noData": { "description": "No data message" },
+  "@invalidPhoneNumber": { "description": "Invalid phone number error" },
+  "@profileUpdated": { "description": "Profile updated message" },
+  "@errorUpdatingProfile": { "description": "Error updating profile message" },
+  "@loggedOut": { "description": "Logged out message" }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  "en": [
+    "featureInDevelopment",
+    "deleteParcelle"
+  ],
+
+  "wo": [
+    "addParcellePrompt",
+    "featureInDevelopment"
+  ]
+}
