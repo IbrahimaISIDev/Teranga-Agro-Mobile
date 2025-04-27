@@ -1,0 +1,7 @@
+{
+    "editor.formatOnSave": true,
+    "dart.previewFlutterUiGuides": true,
+    "dart.openDevTools": "flutter",
+    "dart.debugExternalPackageLibraries": true,
+    "dart.debugSdkLibraries": false
+}
