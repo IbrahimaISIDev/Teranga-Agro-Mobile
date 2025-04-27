@@ -1,0 +1,127 @@
+teranga_agro/
+├── android/
+├── assets/
+|   ├── fonts/
+│   │    ├── Poppins-Bold.ttf
+│   │    ├── Poppins-Medium.ttf
+│   │    ├── Poppins-Regular.ttf
+│   │    └── Poppins-SemiBold.ttf
+|   ├── icons/
+|   ├── images/
+|   ├── translations/
+├── ios/
+├── lib/
+│   ├── core/
+│   │   ├── constants/
+│   │   │   ├── app_constants.dart
+│   │   │   ├── api_constants.dart
+│   │   │   └── asset_constants.dart
+│   │   ├── errors/
+│   │   │   ├── exceptions.dart
+│   │   │   └── failures.dart
+│   │   ├── network/
+│   │   │   ├── network_info.dart
+│   │   │   └── api_client.dart
+│   │   ├── storage/
+│   │   │   └── local_storage.dart
+│   │   ├── theme/
+│   │   │   ├── app_colors.dart
+│   │   │   ├── app_text_styles.dart
+│   │   │   └── app_theme.dart
+│   │   └── utils/
+│   │       ├── date_utils.dart
+│   │       ├── validators.dart
+│   │       └── navigation_utils.dart
+│   ├── data/
+│   │   ├── datasources/
+│   │   │   ├── remote/
+│   │   │   │   ├── auth_remote_data_source.dart
+│   │   │   │   ├── parcel_remote_data_source.dart
+│   │   │   │   └── product_remote_data_source.dart
+│   │   │   └── local/
+│   │   │       ├── auth_local_data_source.dart
+│   │   │       └── user_local_data_source.dart
+│   │   ├── models/
+│   │   │   ├── user_model.dart
+│   │   │   ├── parcel_model.dart
+│   │   │   └── product_model.dart
+│   │   └── repositories/
+│   │       ├── auth_repository_impl.dart
+│   │       ├── parcel_repository_impl.dart
+│   │       └── product_repository_impl.dart
+│   ├── domain/
+│   │   ├── entities/
+│   │   │   ├── user.dart
+│   │   │   ├── parcel.dart
+│   │   │   └── product.dart
+│   │   ├── repositories/
+│   │   │   ├── auth_repository.dart
+│   │   │   ├── parcel_repository.dart
+│   │   │   └── product_repository.dart
+│   │   └── usecases/
+│   │       ├── auth/
+│   │       │   ├── login_usecase.dart
+│   │       │   └── register_usecase.dart
+│   │       ├── parcels/
+│   │       │   ├── get_parcels_usecase.dart
+│   │       │   └── add_parcel_usecase.dart
+│   │       └── products/
+│   │           ├── get_products_usecase.dart
+│   │           └── add_product_usecase.dart
+│   ├── presentation/
+│   │   ├── bloc/
+│   │   │   ├── auth/
+│   │   │   │   ├── auth_bloc.dart
+│   │   │   │   ├── auth_event.dart
+│   │   │   │   └── auth_state.dart
+│   │   │   ├── parcel/
+│   │   │   │   ├── parcel_bloc.dart
+│   │   │   │   ├── parcel_event.dart
+│   │   │   │   └── parcel_state.dart
+│   │   │   └── product/
+│   │   │       ├── product_bloc.dart
+│   │   │       ├── product_event.dart
+│   │   │       └── product_state.dart
+│   │   ├── pages/
+│   │   │   ├── auth/
+│   │   │   │   ├── login_page.dart
+│   │   │   │   └── register_page.dart
+│   │   │   ├── parcels/
+│   │   │   │   ├── parcels_list_page.dart
+│   │   │   │   └── add_parcel_page.dart
+│   │   │   ├── products/
+│   │   │   │   ├── products_list_page.dart
+│   │   │   │   └── add_product_page.dart
+│   │   │   ├── dashboard/
+│   │   │   │   └── dashboard_page.dart
+│   │   │   └── splash_page.dart
+│   │   └── widgets/
+│   │       ├── common/
+│   │       │   ├── app_bar.dart
+│   │       │   ├── loading_indicator.dart
+│   │       │   ├── custom_app_bar.dart
+│   │       │   ├── custom_button.dart
+│   │       │   ├── custom_text_field.dart
+│   │       │   └── error_display.dart
+│   │       ├── parcel/
+│   │       │   └── parcel_card.dart
+│   │       └── product/
+│   │           └── product_card.dart
+│   ├── di/
+│   │   └── injection_container.dart
+│   ├── routes.dart
+│   └── main.dart
+├── test/
+│   └── ...
+├── pubspec.yaml
+└── README.md
+
+
+flutter clean
+flutter pub get
+ls -lh android/app/build/outputs/apk/debug/
+mkdir -p build/app/outputs/flutter-apk/
+ls -lh build/app/outputs/flutter-apk/
+cp android/app/build/outputs/apk/debug/app-debug.apk \
+   build/app/outputs/flutter-apk/
+flutter run

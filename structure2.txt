@@ -1,0 +1,255 @@
+teranga_agro/
+├── android/                    # Config Android
+├── ios/                        # Config iOS
+├── assets/                     # Ressources statiques
+│   ├── fonts/                  # Polices
+│   │   ├── Poppins-Bold.ttf
+│   │   ├── Poppins-Medium.ttf
+│   │   ├── Poppins-Regular.ttf
+│   │   └── Poppins-SemiBold.ttf
+│   ├── icons/                  # Icônes (SVG/PNG)
+│   ├── images/                 # Images (ex. logo)
+│   └── translations/           # Fichiers ARB pour i18n
+│       ├── app_en.arb
+│       ├── app_fr.arb
+│       └── app_wo.arb
+├── lib/                        # Code source
+│   ├── core/                   # Code partagé
+│   │   ├── constants/          # Constantes
+│   │   │   ├── app_constants.dart
+│   │   │   ├── api_constants.dart
+│   │   │   └── asset_constants.dart
+│   │   ├── errors/             # Gestion erreurs
+│   │   │   ├── exceptions.dart
+│   │   │   └── failures.dart
+│   │   ├── network/            # Réseau
+│   │   │   ├── network_info.dart
+│   │   │   ├── api_client.dart
+│   │   │   └── queue.dart      # File d’attente hors-ligne
+│   │   ├── storage/            # Stockage local
+│   │   │   └── database.dart   # SQLite
+│   │   ├── theme/              # Style UX
+│   │   │   ├── app_colors.dart
+│   │   │   ├── app_text_styles.dart
+│   │   │   └── app_theme.dart
+│   │   └── utils/              # Utilitaires
+│   │       ├── date_utils.dart
+│   │       ├── validators.dart
+│   │       ├── logger.dart     # Logging
+│   │       └── navigation_utils.dart
+│   ├── features/               # Fonctionnalités MVP
+│   │   ├── auth/               # Authentification
+│   │   │   ├── data/
+│   │   │   │   ├── datasources/
+│   │   │   │   │   ├── auth_remote_data_source.dart
+│   │   │   │   │   └── auth_local_data_source.dart
+│   │   │   │   ├── models/
+│   │   │   │   │   └── user_model.dart
+│   │   │   │   └── repositories/
+│   │   │   │       └── auth_repository_impl.dart
+│   │   │   ├── domain/
+│   │   │   │   ├── entities/
+│   │   │   │   │   └── user.dart
+│   │   │   │   ├── repositories/
+│   │   │   │   │   └── auth_repository.dart
+│   │   │   │   └── usecases/
+│   │   │   │       ├── login_usecase.dart
+│   │   │   │       └── register_usecase.dart
+│   │   │   └── presentation/
+│   │   │       ├── providers/
+│   │   │       │   └── auth_provider.dart
+│   │   │       ├── pages/
+│   │   │       │   ├── login_page.dart
+│   │   │       │   └── register_page.dart
+│   │   │       └── widgets/
+│   │   │           ├── auth_form.dart
+│   │   │           └── language_toggle.dart
+│   │   ├── parcelle/            # Gestion parcelles
+│   │   │   ├── data/
+│   │   │   │   ├── datasources/
+│   │   │   │   │   ├── parcelle_remote_data_source.dart
+│   │   │   │   │   └── parcelle_local_data_source.dart
+│   │   │   │   ├── models/
+│   │   │   │   │   ├── parcelle_model.dart
+│   │   │   │   │   └── culture_model.dart
+│   │   │   │   └── repositories/
+│   │   │   │       └── parcelle_repository_impl.dart
+│   │   │   ├── domain/
+│   │   │   │   ├── entities/
+│   │   │   │   │   ├── parcelle.dart
+│   │   │   │   │   └── culture.dart
+│   │   │   │   ├── repositories/
+│   │   │   │   │   └── parcelle_repository.dart
+│   │   │   │   └── usecases/
+│   │   │   │       ├── get_parcelles_usecase.dart
+│   │   │   │       ├── add_parcelle_usecase.dart
+│   │   │   │       └── update_parcelle_usecase.dart
+│   │   │   └── presentation/
+│   │   │       ├── providers/
+│   │   │       │   └── parcelle_provider.dart
+│   │   │       ├── pages/
+│   │   │       │   ├── parcelles_list_page.dart
+│   │   │       │   └── add_parcelle_page.dart
+│   │   │       └── widgets/
+│   │   │           ├── parcelle_card.dart
+│   │   │           └── offline_indicator.dart
+│   │   ├── marketplace/         # Offres, commandes
+│   │   │   ├── data/
+│   │   │   │   ├── datasources/
+│   │   │   │   │   ├── offre_remote_data_source.dart
+│   │   │   │   │   ├── commande_remote_data_source.dart
+│   │   │   │   │   └── commande_local_data_source.dart
+│   │   │   │   ├── models/
+│   │   │   │   │   ├── offre_model.dart
+│   │   │   │   │   ├── commande_model.dart
+│   │   │   │   │   └── transaction_model.dart
+│   │   │   │   └── repositories/
+│   │   │   │       ├── offre_repository_impl.dart
+│   │   │   │       └── commande_repository_impl.dart
+│   │   │   ├── domain/
+│   │   │   │   ├── entities/
+│   │   │   │   │   ├── offre.dart
+│   │   │   │   │   ├── commande.dart
+│   │   │   │   │   └── transaction.dart
+│   │   │   │   ├── repositories/
+│   │   │   │   │   ├── offre_repository.dart
+│   │   │   │   │   └── commande_repository.dart
+│   │   │   │   └── usecases/
+│   │   │   │       ├── get_offres_usecase.dart
+│   │   │   │       ├── create_offre_usecase.dart
+│   │   │   │       ├── create_commande_usecase.dart
+│   │   │   │       └── pay_commande_usecase.dart
+│   │   │   └── presentation/
+│   │   │       ├── providers/
+│   │   │       │   ├── offre_provider.dart
+│   │   │       │   └── commande_provider.dart
+│   │   │       ├── pages/
+│   │   │       │   ├── offres_list_page.dart
+│   │   │       │   ├── create_offre_page.dart
+│   │   │       │   └── commandes_list_page.dart
+│   │   │       └── widgets/
+│   │   │           ├── offre_card.dart
+│   │   │           └── commande_card.dart
+│   │   ├── dashboard/           # Tableau de bord
+│   │   │   ├── data/
+│   │   │   │   ├── datasources/
+│   │   │   │   │   └── dashboard_remote_data_source.dart
+│   │   │   │   ├── models/
+│   │   │   │   │   └── stats_model.dart
+│   │   │   │   └── repositories/
+│   │   │   │       └── dashboard_repository_impl.dart
+│   │   │   ├── domain/
+│   │   │   │   ├── entities/
+│   │   │   │   │   └── stats.dart
+│   │   │   │   ├── repositories/
+│   │   │   │   │   └── dashboard_repository.dart
+│   │   │   │   └── usecases/
+│   │   │   │       └── get_dashboard_stats_usecase.dart
+│   │   │   └── presentation/
+│   │   │       ├── providers/
+│   │   │       │   └── dashboard_provider.dart
+│   │   │       ├── pages/
+│   │   │       │   └── dashboard_page.dart
+│   │   │       └── widgets/
+│   │   │           └── stats_card.dart
+│   ├── di/                      # Injection dépendances
+│   │   └── injection_container.dart
+│   ├── app.dart                # Config app
+│   ├── routes.dart             # GoRouter
+│   └── main.dart               # Point d’entrée
+├── test/                       # Tests
+│   ├── unit/
+│   │   ├── data/
+│   │   ├── domain/
+│   │   └── core/
+│   ├── widget/
+│   │   ├── auth/
+│   │   ├── parcelle/
+│   │   ├── marketplace/
+│   │   └── dashboard/
+│   └── integration/
+├── pubspec.yaml                # Dépendances
+└── README.md                   # Doc projet
+mkdir -p build/app/outputs/flutter-apk/
+
+lib/
+└── features/
+    └── dashboard/
+        └── presentation/
+            ├── pages/
+            │   └── dashboard_page.dart
+            └── widgets/
+                ├── dashboard_header.dart
+                ├── stats_item.dart
+                ├── vertical_divider.dart
+                ├── section_header.dart
+                ├── parcelles_section.dart
+                ├── parcelle_card.dart
+                ├── add_parcelle_card.dart
+                ├── suivis_section.dart
+                └── offline_status_banner.dart
+
+lib/features/marketplace/
+├── data/
+│   ├── datasources/
+│   │   └── marketplace_local_data_source.dart
+│   ├── models/
+│   │   ├── product_model.dart
+│   │   └── order_model.dart
+│   └── repositories/
+│       └── marketplace_repository_impl.dart
+├── domain/
+│   ├── entities/
+│   │   ├── product.dart
+│   │   └── order.dart
+│   ├── repositories/
+│   │   └── marketplace_repository.dart
+│   └── usecases/
+│       ├── get_products_usecase.dart
+│       ├── get_orders_usecase.dart
+│       └── update_order_status_usecase.dart
+├── presentation/
+│   ├── pages/
+│   │   └── marketplace_page.dart
+│   └── widgets/
+│       ├── product_card.dart
+│       └── order_card.dart
+
+marketplace/
+└── presentation/
+    ├── pages/
+    │   └── marketplace_page.dart        # Page principale plus légère
+    └── widgets/
+        ├── marketplace_header.dart      # En-tête avec recherche et notifications
+        ├── tab_bars/
+        │   ├── products_tab.dart        # Onglet des produits
+        │   ├── pending_orders_tab.dart  # Onglet des commandes en attente
+        │   └── historical_orders_tab.dart # Onglet des commandes historiques
+        ├── stats_widget.dart            # Widget des statistiques
+        ├── featured_products_slider.dart # Carrousel de produits en vedette
+        └── status_widgets/
+            ├── loading_widget.dart      # Widget d'état de chargement
+            ├── error_widget.dart        # Widget d'état d'erreur
+            └── empty_state_widget.dart  # Widget d'état vide
+
+flutter clean
+flutter pub get
+flutter gen-l10n
+ls -lh android/app/build/outputs/apk/debug/
+mkdir -p build/app/outputs/flutter-apk/
+ls -lh build/app/outputs/flutter-apk/
+cp android/app/build/outputs/apk/debug/app-debug.apk \
+   build/app/outputs/flutter-apk/
+flutter run
+
+
+flutter pub run flutter_launcher_icons
+
+
+echo "# Teranga_Agro_Mobile_V1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/IbrahimaISIDev/Teranga_Agro_Mobile_V1.git
+git push -u origin main
