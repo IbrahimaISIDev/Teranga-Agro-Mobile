@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "158885315162",
+    "project_id": "teranga-agro",
+    "storage_bucket": "teranga-agro.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158885315162:android:15318eb767da948330ce63",
+        "android_client_info": {
+          "package_name": "sn.terangaagro.teranga_agro_mobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-Be6sCTciCHGLKBaOHOhLqUsdRlWEUo0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
